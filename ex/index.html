@@ -1,45 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <div class="container">
-    <h1>스케줄 관리</h1>
-    <table class="schedule-table">
-      <thead>
-        <tr>
-          <th>시간</th>
-          <th>수업</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>09:00</td>
-          <td>공혁준 PT</td>
-        </tr>
-        <tr>
-          <td>10:00</td>
-          <td>공혁준 PT</td>
-        </tr>
-        <tr>
-          <td>11:00</td>
-          <td>이희태 PT</td>
-        </tr>
-        <tr>
-          <td>12:00</td>
-          <td>이희태 PT</td>
-        </tr>
-        <tr>
-          <td>13:00</td>
-          <td>이희태 PT</td>
-        </tr>
-        <!-- ... 나머지 시간은 필요에 따라 추가 ... -->
-      </tbody>
-    </table>
+  <div class="container">
+    <!-- 오늘 일정 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="title">
+          <h1>오늘 일정</h1>
+        </div>
+        <div class="date">
+          <h1>2025.05.15</h1>
+        </div>
+      </div>
+
+      <div class="section-body">
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>09:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>10:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>11:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>12:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+        
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>13:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+      </div>
+    </div>
+
+    <!-- 기구 점검 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="title">
+          <h1>기구 점검</h1>
+        </div>
+      </div>
+
+      <div class="section-body">
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>09:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>10:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>11:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>12:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>13:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+      </div>
+    </div>
+
+    <!-- 미답변 문의사항 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="title">
+          <h1>미답변 문의사항</h1>
+        </div>
+      </div>
+
+      <div class="section-body">
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>09:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>10:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>11:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>12:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>13:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+      </div>
+    </div>
+
+    <!-- 식단 평가 -->
+    <div class="section">
+      <div class="section-header">
+        <div class="title">
+          <h1>식단 평가</h1>
+        </div>
+      </div>
+
+      <div class="section-body">
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>09:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>10:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>11:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>12:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+
+        <div class="schedule">
+          <tr>
+            <div class="time"><td>13:00</td></div>
+            <div class="todo"><td>이희태 PT</td></div>
+          </tr>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
